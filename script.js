@@ -64,10 +64,10 @@ function entrou (){
        
             var media = (nota1 + nota2 + nota3)/3 ;
        
-            if(media >= 7)
+           
              if(media==10)
               alert("Parabém, você está com nota máxima" + media);
-             else
+             else if(media >= 7)
               alert("Parabens, você está na media "+ media);
             else
              alert("Que pena! Você está abaixo da média, cuidado para não reprovar!" + media)
